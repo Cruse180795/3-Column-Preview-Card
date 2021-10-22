@@ -96,3 +96,41 @@ main {
   color: var(--very-dark-cyan);
   line-height: 1.5625rem;
 }
+
+@media only screen and (min-width: 64em) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  main {
+    display: flex;
+    width: 57.5rem;
+    height: 31.25rem;
+  }
+
+
+  .card--orange {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .card--dark-cyan {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .card__title {
+    margin-top: 2.5rem;
+  }
+
+  .card__description {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    margin-top: 5rem;
+    padding: 0.625rem 2.1875rem;
+  }
+}
