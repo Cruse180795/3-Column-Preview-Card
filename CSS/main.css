@@ -19,3 +19,80 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: var(--lexend-deca);
+  color: var(--light-gray);
+  background-color: var(--light-gray);
+  font-size: var(--font-size);
+  min-height: 100vh;
+}
+
+main {
+  min-width: 20.375rem;
+  margin: 2.5rem 1.25rem;
+}
+
+.card {
+  padding: 2.1875rem 3.125rem;
+}
+
+.card--orange {
+  background-color: var(--orange);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card--cyan {
+  background-color: var(--dark-cyan);
+}
+
+.card--dark-cyan {
+  background-color: var(--very-dark-cyan);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.card__title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-family: var(--big-shoulders);
+  line-height: 3rem;
+  margin-top: 1.25rem;
+}
+
+.card__description {
+  color: var(--transparent-white);
+  line-height: 1.5625rem;
+  margin-top: 1.25rem;
+}
+
+.btn {
+  margin-top: 1.75rem;
+  padding: 0.625rem 1.875rem;
+  border-radius: 1.875rem;
+  border: 2px solid var(--transparent-white);
+  transition: all ease-in-out .2s;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: inherit;
+  color: var(--light-gray);
+}
+
+.btn--orange {
+  color: var(--orange);
+  line-height: 1.5625rem;
+}
+
+.btn--cyan {
+  color: var(--dark-cyan);
+  line-height: 1.5625rem;
+}
+
+.btn--dark-cyan {
+  color: var(--very-dark-cyan);
+  line-height: 1.5625rem;
+}
